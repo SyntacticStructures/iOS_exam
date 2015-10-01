@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A4A896C1BA62600006253CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A896B1BA62600006253CB /* AppDelegate.swift */; };
+		9A4A896E1BA62600006253CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A896D1BA62600006253CB /* ViewController.swift */; };
+		9A4A89711BA62600006253CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A896F1BA62600006253CB /* Main.storyboard */; };
+		9A4A89731BA62600006253CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A89721BA62600006253CB /* Assets.xcassets */; };
+		9A4A89761BA62600006253CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A89741BA62600006253CB /* LaunchScreen.storyboard */; };
+		9A4A89811BA62600006253CB /* RealBlackBeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A89801BA62600006253CB /* RealBlackBeltTests.swift */; };
+		9A4A898C1BA62600006253CB /* RealBlackBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A898B1BA62600006253CB /* RealBlackBeltUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A4A897D1BA62600006253CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A4A89601BA62600006253CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A4A89671BA62600006253CB;
+			remoteInfo = RealBlackBelt;
+		};
+		9A4A89881BA62600006253CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A4A89601BA62600006253CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A4A89671BA62600006253CB;
+			remoteInfo = RealBlackBelt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A4A89681BA62600006253CB /* RealBlackBelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealBlackBelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A896B1BA62600006253CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A4A896D1BA62600006253CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A4A89701BA62600006253CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A4A89721BA62600006253CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A4A89751BA62600006253CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A4A89771BA62600006253CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4A897C1BA62600006253CB /* RealBlackBeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealBlackBeltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A89801BA62600006253CB /* RealBlackBeltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealBlackBeltTests.swift; sourceTree = "<group>"; };
+		9A4A89821BA62600006253CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4A89871BA62600006253CB /* RealBlackBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealBlackBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A898B1BA62600006253CB /* RealBlackBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealBlackBeltUITests.swift; sourceTree = "<group>"; };
+		9A4A898D1BA62600006253CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A4A89651BA62600006253CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A89791BA62600006253CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A89841BA62600006253CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4A895F1BA62600006253CB = {
+			isa = PBXGroup;
+			children = (
+				9A4A896A1BA62600006253CB /* RealBlackBelt */,
+				9A4A897F1BA62600006253CB /* RealBlackBeltTests */,
+				9A4A898A1BA62600006253CB /* RealBlackBeltUITests */,
+				9A4A89691BA62600006253CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A4A89691BA62600006253CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A89681BA62600006253CB /* RealBlackBelt.app */,
+				9A4A897C1BA62600006253CB /* RealBlackBeltTests.xctest */,
+				9A4A89871BA62600006253CB /* RealBlackBeltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A4A896A1BA62600006253CB /* RealBlackBelt */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A896B1BA62600006253CB /* AppDelegate.swift */,
+				9A4A896D1BA62600006253CB /* ViewController.swift */,
+				9A4A896F1BA62600006253CB /* Main.storyboard */,
+				9A4A89721BA62600006253CB /* Assets.xcassets */,
+				9A4A89741BA62600006253CB /* LaunchScreen.storyboard */,
+				9A4A89771BA62600006253CB /* Info.plist */,
+			);
+			path = RealBlackBelt;
+			sourceTree = "<group>";
+		};
+		9A4A897F1BA62600006253CB /* RealBlackBeltTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A89801BA62600006253CB /* RealBlackBeltTests.swift */,
+				9A4A89821BA62600006253CB /* Info.plist */,
+			);
+			path = RealBlackBeltTests;
+			sourceTree = "<group>";
+		};
+		9A4A898A1BA62600006253CB /* RealBlackBeltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A898B1BA62600006253CB /* RealBlackBeltUITests.swift */,
+				9A4A898D1BA62600006253CB /* Info.plist */,
+			);
+			path = RealBlackBeltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A4A89671BA62600006253CB /* RealBlackBelt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4A89901BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBelt" */;
+			buildPhases = (
+				9A4A89641BA62600006253CB /* Sources */,
+				9A4A89651BA62600006253CB /* Frameworks */,
+				9A4A89661BA62600006253CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealBlackBelt;
+			productName = RealBlackBelt;
+			productReference = 9A4A89681BA62600006253CB /* RealBlackBelt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A4A897B1BA62600006253CB /* RealBlackBeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4A89931BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBeltTests" */;
+			buildPhases = (
+				9A4A89781BA62600006253CB /* Sources */,
+				9A4A89791BA62600006253CB /* Frameworks */,
+				9A4A897A1BA62600006253CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4A897E1BA62600006253CB /* PBXTargetDependency */,
+			);
+			name = RealBlackBeltTests;
+			productName = RealBlackBeltTests;
+			productReference = 9A4A897C1BA62600006253CB /* RealBlackBeltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A4A89861BA62600006253CB /* RealBlackBeltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4A89961BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBeltUITests" */;
+			buildPhases = (
+				9A4A89831BA62600006253CB /* Sources */,
+				9A4A89841BA62600006253CB /* Frameworks */,
+				9A4A89851BA62600006253CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4A89891BA62600006253CB /* PBXTargetDependency */,
+			);
+			name = RealBlackBeltUITests;
+			productName = RealBlackBeltUITests;
+			productReference = 9A4A89871BA62600006253CB /* RealBlackBeltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A4A89601BA62600006253CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Computer;
+				TargetAttributes = {
+					9A4A89671BA62600006253CB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZYEHCDLV75;
+					};
+					9A4A897B1BA62600006253CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9A4A89671BA62600006253CB;
+					};
+					9A4A89861BA62600006253CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9A4A89671BA62600006253CB;
+					};
+				};
+			};
+			buildConfigurationList = 9A4A89631BA62600006253CB /* Build configuration list for PBXProject "RealBlackBelt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A4A895F1BA62600006253CB;
+			productRefGroup = 9A4A89691BA62600006253CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A4A89671BA62600006253CB /* RealBlackBelt */,
+				9A4A897B1BA62600006253CB /* RealBlackBeltTests */,
+				9A4A89861BA62600006253CB /* RealBlackBeltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A4A89661BA62600006253CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A89761BA62600006253CB /* LaunchScreen.storyboard in Resources */,
+				9A4A89731BA62600006253CB /* Assets.xcassets in Resources */,
+				9A4A89711BA62600006253CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A897A1BA62600006253CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A89851BA62600006253CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A4A89641BA62600006253CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A896E1BA62600006253CB /* ViewController.swift in Sources */,
+				9A4A896C1BA62600006253CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A89781BA62600006253CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A89811BA62600006253CB /* RealBlackBeltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A89831BA62600006253CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A898C1BA62600006253CB /* RealBlackBeltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A4A897E1BA62600006253CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A4A89671BA62600006253CB /* RealBlackBelt */;
+			targetProxy = 9A4A897D1BA62600006253CB /* PBXContainerItemProxy */;
+		};
+		9A4A89891BA62600006253CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A4A89671BA62600006253CB /* RealBlackBelt */;
+			targetProxy = 9A4A89881BA62600006253CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A4A896F1BA62600006253CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A89701BA62600006253CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A4A89741BA62600006253CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A89751BA62600006253CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A4A898E1BA62600006253CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A4A898F1BA62600006253CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A4A89911BA62600006253CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RealBlackBelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBelt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A4A89921BA62600006253CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RealBlackBelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBelt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A4A89941BA62600006253CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealBlackBeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBeltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealBlackBelt.app/RealBlackBelt";
+			};
+			name = Debug;
+		};
+		9A4A89951BA62600006253CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealBlackBeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBeltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealBlackBelt.app/RealBlackBelt";
+			};
+			name = Release;
+		};
+		9A4A89971BA62600006253CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealBlackBeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBeltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealBlackBelt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A4A89981BA62600006253CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealBlackBeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.RealBlackBeltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealBlackBelt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A4A89631BA62600006253CB /* Build configuration list for PBXProject "RealBlackBelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A898E1BA62600006253CB /* Debug */,
+				9A4A898F1BA62600006253CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4A89901BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A89911BA62600006253CB /* Debug */,
+				9A4A89921BA62600006253CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A4A89931BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBeltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A89941BA62600006253CB /* Debug */,
+				9A4A89951BA62600006253CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A4A89961BA62600006253CB /* Build configuration list for PBXNativeTarget "RealBlackBeltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A89971BA62600006253CB /* Debug */,
+				9A4A89981BA62600006253CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A4A89601BA62600006253CB /* Project object */;
+}
